@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Height Measurement System</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 100px;
+            /* border: 1px solid red; */
+        }
+
+        .height {
+            /* border: 1px solid red; */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Height Measurement System</h1>
+        <div class="height">
+            <h2>Your height: <span id="sample"></span>cm</h2>
+        </div>
+    </div>
+
+    <script>
+
+        var socket = io();
+
+        socket.on('data', function (data) {
+
+            console.log(data);
+
+            document.getElementById('sample').innerHTML = data
+
+        });
+    </script>
+</body>
+
+</html>
