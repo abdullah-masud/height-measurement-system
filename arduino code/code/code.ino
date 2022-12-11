@@ -40,101 +40,101 @@ lcd.setCursor(0,0);
 //lcd.print("centimeter");
 delay(300);
 lcd.setCursor(0,1);
-if(b<20)
+if(b)
 {
    //lcd.print("Your Height:");
-   lcd.print(b);
+   lcd.print(b+5);
    lcd.print("cm");
    Serial.println(b);
    delay(300);
 }
-if(b>=30&&b<=40)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+1);
-   lcd.print("cm");
-   Serial.println(b+1);
-   delay(300);
-}
-if(b>=41&&b<=49)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+2);
-   lcd.print("cm");
-   Serial.println(b+2);
-   delay(300);
-}
-if(b>=50&&b<=60)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+3);
-   lcd.print("cm");
-   Serial.println(b+3);
-   delay(300);
-}
-if(b>=61&&b<=69)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+4);
-   lcd.print("cm");
-   Serial.println(b+4);
-   delay(300);
-}
-if(b>=70&&b<=80)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+5);
-   lcd.print("cm");
-   Serial.println(b+5);
-   delay(300);
-}
-if(b>=80&&b<=85)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+6);
-   lcd.print("cm");
-   Serial.println(b+6);
-   delay(300);
-}
-if(b>=86&&b<=90)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+7);
-   lcd.print("cm");
-   Serial.println(b+7);
-   delay(300);
-}
-if(b>=91&&b<=95)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+8);
-   lcd.print("cm");
-   Serial.println(b+8);
-   delay(300);
-}
-if(b>=96&&b<=100)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+9);
-   lcd.print("cm");
-   Serial.println(b+9);
-   delay(300);
-}
-if(b>=101&&b<=105)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+10);
-   lcd.print("cm");
-   Serial.println(b+10);
-   delay(300);
-}
-if(b>=106)
-{
-  //  lcd.print("Your Height:");
-   lcd.print(b+11);
-   lcd.print("cm");
-   Serial.println(b+11);
-   delay(300);
-}
+// if(b>=30&&b<=40)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+1);
+//    lcd.print("cm");
+//    Serial.println(b+1);
+//    delay(300);
+// }
+// if(b>=41&&b<=49)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+2);
+//    lcd.print("cm");
+//    Serial.println(b+2);
+//    delay(300);
+// }
+// if(b>=50&&b<=60)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+3);
+//    lcd.print("cm");
+//    Serial.println(b+3);
+//    delay(300);
+// }
+// if(b>=61&&b<=69)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+4);
+//    lcd.print("cm");
+//    Serial.println(b+4);
+//    delay(300);
+// }
+// if(b>=70&&b<=80)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+5);
+//    lcd.print("cm");
+//    Serial.println(b+5);
+//    delay(300);
+// }
+// if(b>=80&&b<=85)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+6);
+//    lcd.print("cm");
+//    Serial.println(b+6);
+//    delay(300);
+// }
+// if(b>=86&&b<=90)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+7);
+//    lcd.print("cm");
+//    Serial.println(b+7);
+//    delay(300);
+// }
+// if(b>=91&&b<=95)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+8);
+//    lcd.print("cm");
+//    Serial.println(b+8);
+//    delay(300);
+// }
+// if(b>=96&&b<=100)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+9);
+//    lcd.print("cm");
+//    Serial.println(b+9);
+//    delay(300);
+// }
+// if(b>=101&&b<=105)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+10);
+//    lcd.print("cm");
+//    Serial.println(b+10);
+//    delay(300);
+// }
+// if(b>=106)
+// {
+//   //  lcd.print("Your Height:");
+//    lcd.print(b+11);
+//    lcd.print("cm");
+//    Serial.println(b+11);
+//    delay(300);
+// }
 
 }
