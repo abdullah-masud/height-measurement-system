@@ -45,7 +45,7 @@ if(b)
    //lcd.print("Your Height:");
    lcd.print(b+5);
    lcd.print("cm");
-   Serial.println(b);
+   Serial.println(b+5);
    delay(300);
 }
 // if(b>=30&&b<=40)
